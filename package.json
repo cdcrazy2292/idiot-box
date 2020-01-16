@@ -1,0 +1,25 @@
+{
+  "name": "idiot-box",
+  "version": "1.0.0",
+  "description": "Utility that helps you do everyday stuff easily!",
+  "main": "src",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdcrazy2292/idiot-box.git"
+  },
+  "keywords": [
+    "utils",
+    "utility",
+    "data",
+    "structure"
+  ],
+  "author": "Cristhian Soria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdcrazy2292/idiot-box/issues"
+  },
+  "homepage": "https://github.com/cdcrazy2292/idiot-box#readme"
+}
