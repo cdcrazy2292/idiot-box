@@ -108,3 +108,4 @@ dist
 
 #intellij files
 .idea
+package-lock.json
