@@ -16,6 +16,9 @@
     "data",
     "structure"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "Cristhian Soria",
   "license": "MIT",
   "bugs": {
