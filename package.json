@@ -4,7 +4,7 @@
   "description": "Utility that helps you do everyday stuff easily!",
   "main": "src",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/cdcrazy2292/idiot-box/issues"
   },
-  "homepage": "https://github.com/cdcrazy2292/idiot-box#readme"
+  "homepage": "https://github.com/cdcrazy2292/idiot-box#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "prettier": "1.19.1"
+  }
 }
