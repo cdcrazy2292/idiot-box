@@ -37,7 +37,7 @@ jobs:
       - run: npm test
   publish:
     docker:
-      - image: circleci/node:12
+      - image: circleci/<language>:<version TAG>
     steps:
       - checkout
       - run:
