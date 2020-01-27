@@ -22,14 +22,15 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
-      - run:
-          name: Run tests
-          command: npm test
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: Run tests
+          command: npm test
 
       - persist_to_workspace:
           root: ~/repo
