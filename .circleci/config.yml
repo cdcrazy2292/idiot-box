@@ -36,8 +36,10 @@ jobs:
       # run tests!
       - run: npm test
   publish:
-    docker:
-      - image: circleci/node:12
+    build:
+      docker:
+        - image: circleci/node:12
+      working_directory: ~/repo
       steps:
         - checkout
         - run:
