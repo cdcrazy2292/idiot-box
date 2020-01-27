@@ -37,9 +37,14 @@ jobs:
       - run: npm test
   publish:
     docker:
+
       - image: circleci/<language>:<version TAG>
+
+    working_directory: ~/repo
+
     steps:
       - checkout
+
       - run:
           name: Publish to NPM
           command: |
@@ -52,5 +57,5 @@ workflows:
     jobs:
       - publish:
           filters:
-            tags:
-              only: /v[0-9]+(\.[0-9]+)*/
+            branches:
+              only: master
