@@ -1,6 +1,6 @@
 {
   "name": "idiot-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility that helps you do everyday stuff easily!",
   "main": "src",
   "scripts": {
